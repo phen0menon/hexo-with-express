@@ -18,7 +18,7 @@ When you edit your blog and want to see some changes, use `hexo generate` in ord
 **Important**: Don't forget to restart the server.
 
 ## How to add modules to the project
-You will need to add other modules to this boilerplate, depending on the requirements of your project. For example, you may want to add [node-postgres](https://github.com/brianc/node-postgres) to communicate with PostgreSQL database.
+You will need to add other modules to this project, depending on your purposes. For example, you may want to add [node-postgres](https://github.com/brianc/node-postgres) to communicate with PostgreSQL database.
 
 Please read the following section before installing any dependencies
 
@@ -35,3 +35,6 @@ This project uses a two package.json project structure. This means, you will hav
 
 ## Credits
 This repository would not be possible without these amazing folks: [Hexo](https://github.com/hexojs/hexo), [Express.js](https://github.com/expressjs/express)
+
+## License
+This project is licensed under the Apache license, Copyright (c) 2018
