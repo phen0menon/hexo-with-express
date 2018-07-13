@@ -34,7 +34,7 @@ This project uses a two package.json project structure. This means, you will hav
 3. Modules used for building, testing and debugging should be included in `devDependencies` in `./package.json`
 
 ## Change URL route of blog
-If you want to change url route of blog, for example, you may want to change url like this: `http://domain.com/blog`
+If you want to change url route of blog, for example, you may want to change route like this: `http://domain.com/blog`
 
 Please read the following section before doing any thing.
 
