@@ -46,8 +46,7 @@ url: http://localhost:4000/your_blog_dir
 root: /your_blog_dir
 ```
 2. In this folder run `hexo generate`.
-3. Go to `hexo-with-express/` and open `index.js`
-Change the following:
+3. Go to `hexo-with-express/` and open `index.js`. Change the following:
 ```js
 app.use('/your_blog_dir', express.static('blog/public'));
 ```
