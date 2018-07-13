@@ -4,7 +4,7 @@
 ## Quick Start
 1.  Make sure that you have Node v8 or above installed.
 2.  Clone this repo using `git clone https://github.com/phen0menon/hexo-with-express.git`
-3.  Move to the appropriate directory: `cd blog`.<br />
+3.  Move to the appropriate directory: `cd hexo-with-express/blog`.<br />
 4.  Run `npm install` in order to install dependencies.<br />
 5.  Run `hexo generate` in order to generate Hexo's public files.<br />
 6.  Move to the root directory of the project: `cd ../`<br />
@@ -33,8 +33,27 @@ This project uses a two package.json project structure. This means, you will hav
 2. Modules used for developing (like node-postgres) should be included in `dependencies` in `./package.json`
 3. Modules used for building, testing and debugging should be included in `devDependencies` in `./package.json`
 
-## Credits
-This repository would not be possible without these amazing folks: [Hexo](https://github.com/hexojs/hexo), [Express.js](https://github.com/expressjs/express)
+## Change URL of blog
+If you want to change directory (url) of blog, for example, you may want to change url like this: `http://domain.com/blog`
 
-## License
-This project is licensed under the Apache license, Copyright (c) 2018
+Please read the following section before doing any thing.
+
+1. Go to `hexo-with-express/blog` and open `_config.yml` file.
+Find URL section and change the following:
+```
+url: http://localhost:4000/your_blog_dir
+root: /your_blog_dir
+```
+2. In this folder run `hexo generate`.
+3. Go to `hexo-with-express/` and open `index.js`
+Change the following:
+```
+app.use('/your_blog_dir', express.static('blog/public'));
+```
+4. Restart the server to apply the changes.
+5. Open `http://localhost:4000/your_blog_dir`.
+
+
+## Credits
+This project bootstrapped with: [Hexo](https://github.com/hexojs/hexo), [Express.js](https://github.com/expressjs/express)
+
