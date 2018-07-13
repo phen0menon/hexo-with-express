@@ -1,13 +1,17 @@
-<p align="center"><img src="https://user-images.githubusercontent.com/15520523/42703955-2b85ec76-86df-11e8-9fd2-6737f674f7a6.png" /></p>
+<p align="center">
+  <a href="https://github.com/phen0menon/hexo-with-express">
+    <img src="https://user-images.githubusercontent.com/15520523/42703955-2b85ec76-86df-11e8-9fd2-6737f674f7a6.png" />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/phen0menon/hexo-with-express/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/phen0menon/hexo-with-express.svg?style=for-the-badge" />
   </a>
-  <a href="https://github.com/phen0menon/hexo-with-express/stargazers">
+  <a href="https://github.com/phen0menon/hexo-with-express/network">
     <img src="https://img.shields.io/github/forks/phen0menon/hexo-with-express.svg?style=for-the-badge" />
   </a>
-  <a href="https://github.com/phen0menon/hexo-with-express/network">
+  <a href="https://github.com/phen0menon/hexo-with-express/stargazers">
     <img src="https://img.shields.io/github/stars/phen0menon/hexo-with-express.svg?style=for-the-badge" />
   </a>
   <a href="https://github.com/phen0menon/hexo-with-express/issues">
