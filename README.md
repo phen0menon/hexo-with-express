@@ -23,12 +23,12 @@
 
 ## Quick Start
 1.  Make sure that you have Node v8 or above installed.
-2.  Clone this repo using `git clone https://github.com/phen0menon/hexo-with-express.git`
-3.  Move to the appropriate directory: `cd hexo-with-express/blog`.<br />
-4.  Run `npm install` in order to install dependencies.<br />
-5.  Run `hexo generate` in order to generate Hexo's public files.<br />
-6.  Move to the root directory of the project: `cd ../`<br />
-7.  Run `npm install` in order to install project-root dependencies.<br />
+2.  Clone this repo using `$ git clone https://github.com/phen0menon/hexo-with-express.git`
+3.  Move to the appropriate directory: `$ cd hexo-with-express/blog`.<br />
+4.  Run `$ npm install` in order to install dependencies.<br />
+5.  Run `$ hexo generate` in order to generate Hexo's public files.<br />
+6.  Move to the root directory of the project: `$ cd ../`<br />
+7.  Run `$ npm install` in order to install project-root dependencies.<br />
 
 At this point you can run `npm run start` to see the example app at `http://localhost:4000`
 
