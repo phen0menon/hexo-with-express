@@ -33,7 +33,7 @@
 At this point you can run `npm run start` to see the example app at `http://localhost:4000`
 
 ## Guide 
-When you edit your blog and want to see some changes, use `hexo generate` in order to create public HTML files and see them on your Express.js server. 
+When you edit your blog and want to see some changes, use `$ hexo generate` in order to create public HTML files and see them on your Express.js server. 
 
 **Important**: Don't forget to restart the server.
 
@@ -76,4 +76,6 @@ app.use('/your_blog_dir', express.static('blog/public'));
 
 ## Credits
 This project bootstrapped with: [Hexo](https://github.com/hexojs/hexo), [Express.js](https://github.com/expressjs/express)
+
+Made with ❤️ for Hexo
 
