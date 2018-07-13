@@ -1,4 +1,10 @@
-# hexo-with-express
+<p align="center"><img src="https://user-images.githubusercontent.com/15520523/42703955-2b85ec76-86df-11e8-9fd2-6737f674f7a6.png" /></p>
+
+[![GitHub license](https://img.shields.io/github/license/phen0menon/hexo-with-express.svg?style=for-the-badge)](https://github.com/phen0menon/hexo-with-express/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/phen0menon/hexo-with-express.svg?style=for-the-badge)](https://github.com/phen0menon/hexo-with-express/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/phen0menon/hexo-with-express.svg?style=for-the-badge)](https://github.com/phen0menon/hexo-with-express/network)
+[![GitHub issues](https://img.shields.io/github/issues/phen0menon/hexo-with-express.svg?style=for-the-badge)](https://github.com/phen0menon/hexo-with-express/issues)
+
 ### This repository contains Hexo blogging platform integrated with Express.js
 
 ## Quick Start
