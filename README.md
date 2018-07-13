@@ -33,8 +33,8 @@ This project uses a two package.json project structure. This means, you will hav
 2. Modules used for developing (like node-postgres) should be included in `dependencies` in `./package.json`
 3. Modules used for building, testing and debugging should be included in `devDependencies` in `./package.json`
 
-## Change URL of blog
-If you want to change directory (url) of blog, for example, you may want to change url like this: `http://domain.com/blog`
+## Change URL route of blog
+If you want to change url route of blog, for example, you may want to change url like this: `http://domain.com/blog`
 
 Please read the following section before doing any thing.
 
