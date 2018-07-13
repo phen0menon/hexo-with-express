@@ -38,6 +38,7 @@ If you want to change directory (url) of blog, for example, you may want to chan
 
 Please read the following section before doing any thing.
 
+### Step-by-step guide
 1. Go to `hexo-with-express/blog` and open `_config.yml` file.
 Find URL section and change the following:
 ```js
