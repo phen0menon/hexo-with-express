@@ -15,8 +15,6 @@
   </a>
 </p>
 
-### This repository contains Hexo blogging platform integrated with Express.js
-
 ## Quick Start
 1.  Make sure that you have Node v8 or above installed.
 2.  Clone this repo using `git clone https://github.com/phen0menon/hexo-with-express.git`
