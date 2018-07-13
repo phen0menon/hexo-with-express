@@ -23,17 +23,17 @@
 
 ## Quick Start
 1.  Make sure that you have Node v8 or above installed.
-2.  Clone this repo using `$ git clone https://github.com/phen0menon/hexo-with-express.git`
-3.  Move to the appropriate directory: `$ cd hexo-with-express/blog`.<br />
-4.  Run `$ npm install` in order to install dependencies.<br />
-5.  Run `$ hexo generate` in order to generate Hexo's public files.<br />
-6.  Move to the root directory of the project: `$ cd ../`<br />
-7.  Run `$ npm install` in order to install project-root dependencies.<br />
+2.  Clone this repo using `git clone https://github.com/phen0menon/hexo-with-express.git`
+3.  Move to the appropriate directory: `cd hexo-with-express/blog`.<br />
+4.  Run `npm install` in order to install dependencies.<br />
+5.  Run `hexo generate` in order to generate Hexo's public files.<br />
+6.  Move to the root directory of the project: `cd ../`<br />
+7.  Run `npm install` in order to install project-root dependencies.<br />
 
 At this point you can run `npm run start` to see the example app at `http://localhost:4000`
 
 ## Guide 
-When you edit your blog and want to see some changes, use `$ hexo generate` in order to create public HTML files and see them on your Express.js server. 
+When you edit your blog and want to see some changes, use `hexo generate` in order to create public HTML files and see them on your Express.js server. 
 
 **Important**: Don't forget to restart the server.
 
@@ -54,9 +54,9 @@ This project uses a two package.json project structure. This means, you will hav
 3. Modules used for building, testing and debugging should be included in `devDependencies` in `./package.json`
 
 ## Change URL route of blog
-If you want to change url route of blog, for example, you may want to change route like this: `http://domain.com/blog`
+If you want to change url route of blog, for example, you want to change route like this: `http://domain.com/blog`
 
-Please read the following section before doing any thing.
+Please read the following section before doing anything.
 
 ### Step-by-step guide
 1. Go to `hexo-with-express/blog` and open `_config.yml` file.
@@ -75,7 +75,6 @@ app.use('/your_blog_dir', express.static('blog/public'));
 
 
 ## Credits
-This project bootstrapped with: [Hexo](https://github.com/hexojs/hexo), [Express.js](https://github.com/expressjs/express)
-
+This project bootstrapped with: [Hexo](https://github.com/hexojs/hexo), [Express.js](https://github.com/expressjs/express) <br />
 Made with ❤️ for Hexo
 
