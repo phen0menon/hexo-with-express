@@ -40,14 +40,14 @@ Please read the following section before doing any thing.
 
 1. Go to `hexo-with-express/blog` and open `_config.yml` file.
 Find URL section and change the following:
-```
+```js
 url: http://localhost:4000/your_blog_dir
 root: /your_blog_dir
 ```
 2. In this folder run `hexo generate`.
 3. Go to `hexo-with-express/` and open `index.js`
 Change the following:
-```
+```js
 app.use('/your_blog_dir', express.static('blog/public'));
 ```
 4. Restart the server to apply the changes.
