@@ -22,7 +22,7 @@
 <p align="center"><b>Connect Hexo with Express.js and develop fast, simple and flexible websites</b></p>
 
 ## Quick Start
-1.  Make sure that you have Node v8 or above installed.
+1.  Make sure that you have Node.js v8 or above installed.
 2.  Clone this repo using `git clone https://github.com/phen0menon/hexo-with-express.git`
 3.  Move to the appropriate directory: `cd hexo-with-express/blog`.<br />
 4.  Run `npm install` in order to install dependencies.<br />
